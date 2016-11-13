@@ -1,0 +1,26 @@
+exports[`test Dialog::Close view 1`] = `
+<div>
+  <p
+    className="tg-block">
+    Are you sure you want to close all tabs?
+  </p>
+  <button
+    autoFocus="autoFocus"
+    className="tg-button"
+    onClick={[Function]}>
+    Confirm
+  </button>
+  <p
+    className="tg-block">
+    <input
+      id="confirm"
+      onChange={[Function]}
+      type="checkbox" />
+    <label
+      className="tg-label"
+      htmlFor="confirm">
+      Prevent additional confirmation
+    </label>
+  </p>
+</div>
+`;

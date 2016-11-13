@@ -1,0 +1,58 @@
+@import "../decor.css";
+
+.tg-search {
+	position: relative;
+
+	&.is-active {
+		.tg-search__input {
+			z-index: 0;
+		}
+
+		.tg-search__clear {
+			opacity: 1;
+			z-index: 2;
+		}
+	}
+}
+
+	.tg-search__input {
+		color: var(--search-color);
+		font-size: var(--search-font-size);
+		line-height: var(--search-line-height);
+		padding: var(--padding);
+		border: none;
+		outline: none;
+		position: relative;
+		transition: box-shadow .4s cubic-bezier(.4, 0, 1, 1);
+		width: 100%;
+		z-index: 1;
+
+		&:focus {
+			box-shadow: 0 -12px 15px -16px var(--search-box-focus-color);
+		}
+	}
+
+	.tg-search__clear {
+		transition: opacity .3s ease-in;
+		opacity: 0;
+		z-index: 0;
+
+		&:after {
+			content: 'close';
+			color: var(--search-clear-color);
+			cursor: pointer;
+			font-size: var(--close-glyph-font-size);
+			font-family: 'Material';
+			line-height: var(--search-clear-line-height);
+			position: absolute;
+			right: var(--padding);
+			top: 19px;
+			-webkit-font-feature-settings: 'liga';
+			-webkit-font-smoothing: antialiased;
+			/*z-index: 1;*/
+		}
+
+		&:hover:after {
+			color: var(--search-color);
+		}
+	}

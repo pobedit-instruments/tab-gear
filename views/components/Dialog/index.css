@@ -1,0 +1,6 @@
+@import "../decor.css";
+
+.tg-dialog {
+	color: var(--dialog-color);
+	text-align: center;
+}

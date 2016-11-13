@@ -1,0 +1,6 @@
+@import "../../decor.css";
+
+.tg-body {
+	min-height: 50px;
+	position: relative;
+}

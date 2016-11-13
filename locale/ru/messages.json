@@ -1,0 +1,181 @@
+{
+	"extension_name": {
+		"message": "Tab Gear"
+	},
+
+	"extension_description": {
+		"message": "Расширение для браузера Chrome, которое позволяет управлять вкладками"
+	},
+
+	"extension_options": {
+		"message": "Опции расширения Tab Gear"
+	},
+
+	"extension_options__prevent_closing": {
+		"message": "Хотите предотвратить случайное закрытие всех вкладок?"
+	},
+
+	"show_credentials": {
+		"message": "О приложении"
+	},
+
+	"discard_tabs": {
+		"message": "Освобождение вкладок"
+	},
+
+	"show_errors": {
+		"message": "Ошибка"
+	},
+
+	"close_all_tabs": {
+		"message": "Предупреждение"
+	},
+
+	"tabs_locked": {
+		"message": "Загрузка…"
+	},
+
+	"show_tabs": {
+		"message": "Открытых вкладок: $1"
+	},
+
+	"search_tabs": {
+		"message": "Найдено вкладок: $1"
+	},
+
+	"wait": {
+		"message": "Будьте терпеливы…"
+	},
+
+	"description": {
+		"message": "Tag Gears это расширение для Google Chrome, которое позволяет интуитивно управлять вкладками браузера."
+	},
+
+	"features": {
+		"message": "Некоторые возможности приложения:"
+	},
+
+	"feature_tab_list": {
+		"message": "Список всех открытых вкладок."
+	},
+
+	"feature_i18n": {
+		"message": "Локализация для русского и английского языков."
+	},
+
+	"feature_incognito": {
+		"message": "Отображение вкладок режима Инкогнито."
+	},
+
+	"feature_moving": {
+		"message": "Изменение порядка расположения вкладок — просто перетаскиваете вкладки!"
+	},
+
+	"feature_search": {
+		"message": "Поиск по имени вкладки и адресу — просто начните печатать."
+	},
+
+	"feature_discarding": {
+		"message": "Освобождение владок. Позволяет браузеру автоматически освобождать занимаемую вкладками память, при этом сам вкладки не закрываются."
+	},
+
+	"feature_total_tabs": {
+		"message": "Отображение общего количества открытых вкладок во всех окнах браузера."
+	},
+
+	"feature_highlighting": {
+		"message": "Подстветка текущих и Инкогнито вкладок."
+	},
+
+	"feature_prevent_closing": {
+		"message": "Хотите предотвратить случайное закрытие всех вкладок? Это возможно и конфигурируемо!"
+	},
+
+	"feature_navigation": {
+		"message": "Быстрая навигация с помощью клавиш Tab и Shift+Tab."
+	},
+
+	"feature_confirmation": {
+		"message": "Используйте клавишу Enter для подтверждения действий."
+	},
+
+	"feature_shortcuts": {
+		"message": "Используйте сочетание клавиш Ctrl+Shift+T или ⌘+⇧+T чтобы показать или скрыть приложение."
+	},
+
+	"feature_close_tabs": {
+		"message": "Выборочное закрытие вкладок."
+	},
+
+	"feature_close_all_tabs": {
+		"message": "Закрытие всех вкладок."
+	},
+
+	"feature_open_extensions": {
+		"message": "Быстрый переход на страницу расширений браузера."
+	},
+
+	"copyright": {
+		"message": "Все права сохранены. $1, $2"
+	},
+
+	"issues": {
+		"message": "Обращения направляйте на адрес: "
+	},
+
+	"attention_closing": {
+		"message": "Вы действительно хотите закрыть все кладки?"
+	},
+
+	"confirm": {
+		"message": "Подтвердить"
+	},
+
+	"prevent_confirmation": {
+		"message": "Предотвратить дополнительное подтверждение"
+	},
+
+	"wrong": {
+		"message": "Что-то пошло не так!"
+	},
+
+	"contact": {
+		"message": "Пожалуйста свяжитесь с нами "
+	},
+
+	"open_extensions": {
+		"message": "Открыть расширения"
+	},
+
+	"discard": {
+		"message": "Освободить вкладки"
+	},
+
+	"nothing_found": {
+		"message": "Ничего не найдено…"
+	},
+
+	"back": {
+		"message": "Назад"
+	},
+
+	"discarded": {
+		"message": "Ваши вкладки все еще видно, однако занимаемая ими память успешна осводождена."
+	},
+
+	"proceed": {
+		"message": "Продолжить"
+	},
+
+	"close": {
+		"message": "Закрыть"
+	},
+
+	"close_all": {
+		"message": "Закрыть все вкладки"
+	},
+
+	"search": {
+		"message": "Поиск…"
+	}
+}

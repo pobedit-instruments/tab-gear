@@ -1,0 +1,16 @@
+exports[`test Search view 1`] = `
+<div
+  className="tg-search">
+  <input
+    className="tg-search__input"
+    onBlur={[Function]}
+    onFocus={[Function]}
+    onInput={[Function]}
+    placeholder="Search…"
+    type="text"
+    value="" />
+  <div
+    className="tg-icon tg-search__clear"
+    onClick={[Function]} />
+</div>
+`;

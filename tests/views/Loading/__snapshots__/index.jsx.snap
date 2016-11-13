@@ -1,0 +1,10 @@
+exports[`test Loading view 1`] = `
+<div
+  className="tg-box">
+   
+   
+  You should to be patient…
+   
+   
+</div>
+`;

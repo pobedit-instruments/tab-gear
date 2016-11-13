@@ -1,0 +1,17 @@
+exports[`test Dialog::Discard view 1`] = `
+<div>
+  <p
+    className="tg-block">
+    Your tabs are still visible, but their memory was successfully freed.
+  </p>
+  <p
+    className="tg-block">
+    <button
+      autoFocus="autoFocus"
+      className="tg-button"
+      onClick={[Function]}>
+      Proceed
+    </button>
+  </p>
+</div>
+`;

@@ -1,0 +1,150 @@
+@import "./decor.css";
+
+* {
+	box-sizing: border-box;
+}
+
+html {
+	font-family: sans-serif;
+	line-height: 1.15;
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+img {
+	border-style: none;
+}
+
+body {
+	background-color: var(--body-background-color);
+	font: var(--body-font);
+	margin: 0;
+	width: 410px;
+}
+
+.tg-icon {
+	font-family: 'Material';
+	font-weight: normal;
+	font-style: normal;
+	font-size: 24px;
+	line-height: 1;
+	letter-spacing: normal;
+	text-transform: none;
+	display: inline-block;
+	white-space: nowrap;
+	word-wrap: normal;
+	direction: ltr;
+	-webkit-font-feature-settings: 'liga';
+	-webkit-font-smoothing: antialiased;
+}
+
+.tg-index {
+	margin: 0 auto;
+	width: 90%;
+}
+
+.tg-panel {
+	margin: var(--padding) 0;
+	position: relative;
+	overflow: hidden;
+	text-align: right;
+}
+
+.tg-box {
+	background-color: var(--body-color);
+	color: var(--body-box-color);
+	padding: var(--padding);
+}
+
+.tg-button {
+	display: inline-block;
+	background-color: var(--button-background-color);
+	box-shadow:
+			0 2px 2px 0 rgba(0, 0, 0, .14),
+			0 3px 1px -2px rgba(0, 0, 0, .2),
+			0 1px 5px 0 rgba(0, 0, 0, .12);
+	border: none;
+	border-radius: 2px;
+	color: var(--button-color);
+	cursor: pointer;
+	font-family: var(--button-font-family);
+	font-size: var(--button-font-size);
+	line-height: var(--button-line-height);
+	height: 36px;
+	letter-spacing: 0;
+	overflow: hidden;
+	outline: none;
+	padding: 0 16px;
+	position: relative;
+	margin: 0;
+	min-width: 64px;
+	text-transform: uppercase;
+	transition:
+		box-shadow .2s cubic-bezier(.4, 0, 1, 1),
+		background-color .2s cubic-bezier(.4, 0, .2, 1),
+		color .2s cubic-bezier(.4, 0, .2, 1);
+	text-decoration: none;
+	text-align: center;
+	vertical-align: middle;
+	/*will-change: box-shadow;*/
+}
+
+.tg-button:hover {
+	background: var(--button-hover-color);
+	box-shadow:
+		0 2px 2px 0 rgba(113, 101, 101, 0.14),
+		0 3px 1px -2px rgba(0, 0, 0, .2),
+		0 1px 5px 0 rgb(191, 191, 191);
+}
+
+.tg-button:active {
+	background: var(--button-active-color);
+}
+
+.tg-label {
+	font-size: 13px;
+	padding-left: 4px;
+}
+
+.tg-center {
+	text-align: center;
+}
+
+.tg-list {
+	line-height: 28px;
+	padding-left: 25px;
+	margin-bottom: 15px;
+}
+	.tg-list__item {
+		display: flex;
+	}
+
+	.tg-list__item:before {
+		color: var(--list-color);
+		content: '\2714 ';
+		padding-right: 10px;
+	}
+
+	.tg-block {
+		margin-bottom: var(--padding);
+	}
+
+		.tg-block_small {
+			font-size: 13px;
+		}
+
+.tg-react-appear {
+	opacity: 0.01;
+}
+
+.tg-react-appear.tg-react-appear-active {
+	opacity: 1;
+	transition: all .7s ease-in-out;
+	will-change: opacity;
+}

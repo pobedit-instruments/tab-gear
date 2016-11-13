@@ -1,0 +1,58 @@
+@import "../decor.css";
+
+.tg-link,
+.tg-link:active,
+.tg-link:visited {
+	color: var(--link-color);
+	font-size: var(--link-font-size);
+	line-height: var(--link-line-height);
+}
+
+.tg-link {
+	&:focus {
+		outline: none;
+	}
+
+	&:hover {
+		color: var(--link-hover-color);
+	}
+
+	&--block,
+	&--small {
+		font-size: var(--link-small-font-size);
+	 }
+
+	&--block {
+		margin-left: 10px;
+	}
+
+	&--hidden {
+		visibility: hidden;
+	}
+
+	&--external {
+		color: var(--link-external-color);
+		line-height: var(--link-external-line-height);
+	}
+
+	&--small {
+		color: var(--link-external-color);
+		line-height: var(--link-external-line-height);
+	}
+
+	&--back {
+		display: block;
+		float: left;
+
+		&:before {
+			content: '\2190';
+			margin-right: 5px;
+			display: inline-block;
+		}
+	}
+
+	&--close {
+		display: block;
+		float: right;
+	}
+}

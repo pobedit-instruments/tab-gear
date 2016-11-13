@@ -1,0 +1,181 @@
+{
+	"extension_name": {
+		"message": "Tab Gear"
+	},
+
+	"extension_description": {
+		"message": "Chrome extension for tab management"
+	},
+
+	"extension_options": {
+		"message": "Tab Gear options"
+	},
+
+	"extension_options__prevent_closing": {
+		"message": "Do you want to prevent closing multiple tabs?"
+	},
+
+	"show_credentials": {
+		"message": "About"
+	},
+
+	"discard_tabs": {
+		"message": "Discarding tabs"
+	},
+
+	"show_errors": {
+		"message": "Error"
+	},
+
+	"close_all_tabs": {
+		"message": "Warning"
+	},
+
+	"tabs_locked": {
+		"message": "Loading…"
+	},
+
+	"show_tabs": {
+		"message": "Active tabs: $1"
+	},
+
+	"search_tabs": {
+		"message": "Found tabs: $1"
+	},
+
+	"wait": {
+		"message": "You should to be patient…"
+	},
+
+	"description": {
+		"message": "Tag Gears is an extension for Google Chrome that provides an intuitive tabs management."
+	},
+
+	"features": {
+		"message": "Some of the features that will come handy:"
+	},
+
+	"feature_tab_list": {
+		"message": "List of all open tabs."
+	},
+
+	"feature_i18n": {
+		"message": "Localization for English and Russian languages."
+	},
+
+	"feature_incognito": {
+		"message": "See incognito tabs."
+	},
+
+	"feature_moving": {
+		"message": "Move your tabs in a preferred order — just drag and drop them!"
+	},
+
+	"feature_search": {
+		"message": "Search by title and URL — just start typing."
+	},
+
+	"feature_discarding": {
+		"message": "Tab discarding. Allows Chrome to automatically discard tabs that aren't of great interest to you when it's detected that system memory is running pretty low."
+	},
+
+	"feature_total_tabs": {
+		"message": "Displays the number of tabs you currently have open in all your Chrome windows."
+	},
+
+	"feature_highlighting": {
+		"message": "Highlighting your current and incognito tabs."
+	},
+
+	"feature_prevent_closing": {
+		"message": "Do you want to prevent closing multiple tabs? It's possible by default and configurable!"
+	},
+
+	"feature_navigation": {
+		"message": "Quick navigation with Tab and Shift+Tab keys."
+	},
+
+	"feature_confirmation": {
+		"message": "Use Enter key for action confirmation."
+	},
+
+	"feature_shortcuts": {
+		"message": "Press Ctrl+Shift+T or ⌘+⇧+T keys to show or hide the browser action popup."
+	},
+
+	"feature_close_tabs": {
+		"message": "Closing selective tabs."
+	},
+
+	"feature_close_all_tabs": {
+		"message": "Closing all open tabs."
+	},
+
+	"feature_open_extensions": {
+		"message": "Quick opening your extensions."
+	},
+
+	"copyright": {
+		"message": "All rights reserved. $1, $2"
+	},
+
+	"issues": {
+		"message": "For Issues or Feature requests, mail to: "
+	},
+
+	"attention_closing": {
+		"message": "Are you sure you want to close all tabs?"
+	},
+
+	"confirm": {
+		"message": "Confirm"
+	},
+
+	"prevent_confirmation": {
+		"message": "Prevent additional confirmation"
+	},
+
+	"wrong": {
+		"message": "Something went wrong!"
+	},
+
+	"contact": {
+		"message": "Please contact us at "
+	},
+
+	"open_extensions": {
+		"message": "Open extensions"
+	},
+
+	"discard": {
+		"message": "Discard tabs"
+	},
+
+	"nothing_found": {
+		"message": "Nothing found…"
+	},
+
+	"back": {
+		"message": "Back"
+	},
+
+	"discarded": {
+		"message": "Your tabs are still visible, but their memory was successfully freed."
+	},
+
+	"proceed": {
+		"message": "Proceed"
+	},
+
+	"close": {
+		"message": "Close"
+	},
+
+	"close_all": {
+		"message": "Close all tabs"
+	},
+
+	"search": {
+		"message": "Search…"
+	}
+}

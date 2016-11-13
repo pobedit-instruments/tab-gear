@@ -1,0 +1,63 @@
+@import "../../decor.css";
+
+:root {
+	--size: 26px;
+}
+
+.tg-title {
+	background-color: var(--tab-title-background-color);
+	box-shadow:
+			0 2px 2px 0 rgba(0, 0, 0, .14),
+			0 3px 1px -2px rgba(0, 0, 0, .2),
+			0 1px 5px 0 rgba(0, 0, 0, .12);
+	color: var(--tab-title-color);
+	cursor: default;
+	border-radius: 1px;
+	font-size: 20px;
+	margin: 25px auto 0 auto;
+	padding: var(--padding) 43px var(--padding) 55px;
+	position: relative;
+	user-select: none;
+}
+
+.tg-title,
+.tg-list {
+	border: var(--tab-title-border-color);
+}
+
+.tg-title__logo {
+	background: url('../../../../files/icons/38x38.png') 0 0 no-repeat;
+	background-size: var(--size);
+	margin-right: 13px;
+	top: 12px;
+	left: var(--padding);
+	position: absolute;
+	width: var(--size);
+	height: var(--size);
+}
+
+.tg-controls__more {
+	border-radius: 3px;
+	cursor: pointer;
+	color: var(--tab-title-color);
+	overflow: hidden;
+	outline: none;
+	position: absolute;
+	top: 14px;
+	right: 7px;
+	width: 22px;
+	text-align: center;
+	transition: background-color .3s ease-in-out;
+
+	&:after {
+		content: 'more_vert';
+	}
+
+	&:hover {
+		background-color: #1490f1;
+	}
+
+	&:active {
+		box-shadow: inset 0 0 11px rgba(53, 134, 202, 0.6);
+	}
+}

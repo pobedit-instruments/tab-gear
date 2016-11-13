@@ -1,0 +1,75 @@
+exports[`test About view 1`] = `
+<div
+  className="tg-box">
+   
+  <p
+    className="tg-block">
+    Tag Gears is an extension for Google Chrome that provides an intuitive tabs management.
+  </p>
+  <p
+    className="tg-block">
+    Some of the features that will come handy:
+  </p>
+  <ul
+    className="tg-list">
+    <li
+      className="tg-list__item">
+      List of all open tabs.
+    </li>
+    <li
+      className="tg-list__item">
+      Search by title and URL — just start typing.
+    </li>
+    <li
+      className="tg-list__item">
+      See incognito tabs.
+    </li>
+    <li
+      className="tg-list__item">
+      Tab discarding. Allows Chrome to automatically discard tabs that aren\'t of great interest to you when it\'s detected that system memory is running pretty low.
+    </li>
+    <li
+      className="tg-list__item">
+      Move your tabs in a preferred order — just drag and drop them!
+    </li>
+    <li
+      className="tg-list__item">
+      Closing selective tabs.
+    </li>
+    <li
+      className="tg-list__item">
+      Closing all open tabs.
+    </li>
+    <li
+      className="tg-list__item">
+      Displays the number of tabs you currently have open in all your Chrome windows.
+    </li>
+    <li
+      className="tg-list__item">
+      Quick opening your extensions.
+    </li>
+    <li
+      className="tg-list__item">
+      Localization for English and Russian languages.
+    </li>
+    <li
+      className="tg-list__item">
+      Press Ctrl+Shift+T or ⌘+⇧+T keys to show or hide the browser action popup.
+    </li>
+    <li
+      className="tg-list__item">
+      Do you want to prevent closing multiple tabs? It\'s possible by default and configurable!
+    </li>
+    <li
+      className="tg-list__item">
+      Highlighting your current and incognito tabs.
+    </li>
+  </ul>
+  <p
+    className="tg-block_small tg-center">
+    @ Pobedit Instuments, 2016
+    .
+  </p>
+   
+</div>
+`;

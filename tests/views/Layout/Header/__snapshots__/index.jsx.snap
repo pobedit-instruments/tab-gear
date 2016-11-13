@@ -1,0 +1,12 @@
+exports[`test Layout::Header view 1`] = `
+<div
+  className="tg-panel">
+  <a
+    className="tg-link tg-link--close"
+    href="#"
+    onClick={[Function]}
+    tabIndex="3">
+    Close all tabs
+  </a>
+</div>
+`;

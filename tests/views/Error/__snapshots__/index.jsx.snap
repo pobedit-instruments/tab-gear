@@ -1,0 +1,20 @@
+exports[`test Error view 1`] = `
+<div
+  className="tg-box">
+   
+  <p>
+    Something went wrong!
+    <br />
+    Please contact us at 
+    <a
+      className="tg-link tg-link--external"
+      href="mailto:podebit.ms@gmail.com"
+      onClick={undefined}
+      tabIndex={undefined}>
+      podebit.ms@gmail.com
+    </a>
+    .
+  </p>
+   
+</div>
+`;

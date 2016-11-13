@@ -1,0 +1,19 @@
+exports[`test Layout::Footer view 1`] = `
+<div
+  className="tg-panel">
+  <a
+    className="tg-link"
+    href="#"
+    onClick={[Function]}
+    tabIndex={undefined}>
+    About
+  </a>
+  <a
+    className="tg-link tg-link--block"
+    href="#"
+    onClick={[Function]}
+    tabIndex={undefined}>
+    Open extensions
+  </a>
+</div>
+`;

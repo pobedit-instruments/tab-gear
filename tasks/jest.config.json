@@ -1,0 +1,23 @@
+{
+	"verbose": true,
+
+	"testPathDirs": [
+		"./tests/views"
+	],
+
+	"setupFiles": [
+		"./tests/setup.js"
+	],
+
+	"testPathIgnorePatterns": ["__snapshots__"],
+
+	"cacheDirectory": "./cache/jest",
+
+	"testRegex": ".*(js[x]?)",
+
+	"scriptPreprocessor": "node_modules/jest-css-modules",
+
+	"moduleNameMapper": {
+		"^.+\\.(css)$": "identity-obj-proxy"
+	}
+}

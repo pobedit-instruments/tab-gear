@@ -5,7 +5,8 @@
 * [OnlineFavicon](http://onlinefavicon.com)
 * [ImageSplitter](http://imagesplitter.net)
 * [HTML Entities](https://dev.w3.org/html5/html-author/charref)
-
+* [OnlineCorrection](http://www.onlinecorrection.com)
+* [Спеллер](https://tech.yandex.ru/speller)
 
 ### Fonts:
 

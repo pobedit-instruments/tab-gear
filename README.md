@@ -1,6 +1,6 @@
 # [Tab Gear](https://chrome.google.com/webstore/detail/tab-gear/almpknjjcngnpimhjmcfgiafmfcdjfae?hl=en-US)
 
-> Tag Gears is an extension for Google Chrome that provides an intuitive tabs management.
+> Tag Gears is an extension for Google Chrome that provides an intuitive tab management.
 
 ### Features
 

@@ -1,8 +1,8 @@
 {
 	"name": "__MSG_extension_name__",
 	"description": "__MSG_extension_description__",
-	"version": "1.0.0",
-	"author": "Pobedit Instuments",
+	"version": "1.0.1",
+	"author": "Pobedit Instruments",
 
 	"homepage_url": "https://github.com/pobedit-instruments/tab-gear",
 

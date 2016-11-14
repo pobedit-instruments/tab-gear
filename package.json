@@ -1,8 +1,8 @@
 {
-	"name": "@pobedit/tab-gear",
-	"version": "1.0.0",
+	"name": "@pobedit-instruments/tab-gear",
+	"version": "1.0.1",
 	"author": "Abashkin Alexander",
-	"description": "Tag Gears is an extension for Google Chrome that provides an intuitive tabs management.",
+	"description": "Tag Gears is an extension for Google Chrome that provides an intuitive tab management.",
 	"license": "UNLICENSED",
 
 	"repository": {
@@ -94,7 +94,7 @@
 		"webpack-hot-middleware": "^2.2.0",
 		"webpack-bundle-size-analyzer": "2.2.0",
 		"clean-webpack-plugin": "^0.1.13",
-		"copy-webpack-plugin": "^4.0.0",
+		"copy-webpack-plugin": "^4.0.1",
 		"unused-files-webpack-plugin": "^3.0.0",
 		"extract-text-webpack-plugin": "^1.0.1",
 		"optimize-css-assets-webpack-plugin": "^1.3.0",

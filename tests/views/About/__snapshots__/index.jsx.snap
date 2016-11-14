@@ -4,7 +4,7 @@ exports[`test About view 1`] = `
    
   <p
     className="tg-block">
-    Tag Gears is an extension for Google Chrome that provides an intuitive tabs management.
+    Tag Gears is an extension for Google Chrome that provides an intuitive tab management.
   </p>
   <p
     className="tg-block">

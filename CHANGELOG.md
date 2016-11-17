@@ -1,17 +1,26 @@
 # Tab Gear
 
-# 1.0.2 Stable release
+# 1.0.3
+
+* Fixed options
+* Fixed closing multiple tabs
+
+# 1.0.2
 
 * Fixed error handling 
 * Fixed empty view 
 * Fixed view without search bar 
 
-# 1.0.1 Stable release
+# 1.0.1
 
 * Fixed texts
 
-# 1.0.0 Stable release
+# 1.0.0
+
+* Stable release
 
 * Fixed texts 
 
-# 0.0.1 Initial release
+# 0.0.1
+
+* Initial release

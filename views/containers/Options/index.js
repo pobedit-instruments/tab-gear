@@ -14,14 +14,14 @@ void function () {
 			if (name.startsWith('tg-option')) {
 				let element = document.getElementById(name);
 
-				element.checked = JSON.parse(value);
+				element.checked = !JSON.parse(value);
 			}
 		}
 
 		// Toggle options
 		document.addEventListener('change', ({ target }) => {
 			if (target.dataset.name === 'option') {
-				window.localStorage.setItem(target.id, target.checked);
+				window.localStorage.setItem(target.id, !target.checked);
 			}
 		});
 	}

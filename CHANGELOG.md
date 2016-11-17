@@ -4,6 +4,7 @@
 
 * Fixed options
 * Fixed closing multiple tabs
+* Show Details instead of Developer website
 
 # 1.0.2
 

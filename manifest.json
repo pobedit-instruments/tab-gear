@@ -4,8 +4,6 @@
 	"version": "1.0.3",
 	"author": "Pobedit Instruments",
 
-	"homepage_url": "https://github.com/pobedit-instruments/tab-gear",
-
 	"manifest_version": 2,
 	"default_locale": "en",
 	"minimum_chrome_version": "45.0",

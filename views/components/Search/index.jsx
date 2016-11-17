@@ -16,15 +16,20 @@ class Search extends Component {
 
 		this.state = {
 			value: '',
+			focus: false,
 			switchTab: false
 		};
 	}
 
-	shouldComponentUpdate () {
+	shouldComponentUpdate (nextProps, nextState) {
 		let types = [
 			ActionTypes.DISABLE_TABS,
 			ActionTypes.SEARCH_TABS
 		];
+
+		if (this.state.focus !== nextState.focus) {
+			return true;
+		}
 
 		return types.includes(this.props.type);
 	}
@@ -66,6 +71,8 @@ class Search extends Component {
 
 		let state = tabs.actual.length !== tabs.search.length;
 
+		this.setState({ focus: true });
+
 		actions.Tabs.maskTabs(tabs.actual, state);
 	}
 
@@ -78,6 +85,8 @@ class Search extends Component {
 		if (!event.relatedTarget || event.relatedTarget.dataset.name !== 'tab') {
 			actions.Tabs.maskTabs(tabs.actual, false);
 		}
+
+		this.setState({ focus: false });
 	}
 
 	@bind
@@ -101,10 +110,12 @@ class Search extends Component {
 
 	render () {
 		let { value } = this.state;
+		let active = value.length > 0;
 
 		let state = {
 			extra: {
-				'is-active': value.length > 0
+				'is-active': active,
+				'is-focus': !active && this.state.focus,
 			}
 		};
 

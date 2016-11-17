@@ -1,17 +1,11 @@
 @import "../../decor.css";
 
 .tg-tabs {
-	border-top: 1px solid var(--search-bottom-color);
 	margin: 0 auto;
 	list-style: none;
 	padding: 0;
 	transition: border-top .8s ease-out;
 	will-change: border-top;
-
-	&.is-active,
-	&.is-empty {
-		border-top: 1px solid var(--search-line-color);
-	}
 }
 
 	.tg-tabs__search-results {

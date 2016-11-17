@@ -1,4 +1,5 @@
 import React, { Component, PropTypes } from 'react';
+import * as SearchValues from '../../constants/SearchValues';
 import List from './List';
 import Overlay from './Overlay';
 

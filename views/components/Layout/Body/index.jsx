@@ -38,8 +38,12 @@ class Body extends Component {
 				return <About config={ config } />;
 
 			case ActionTypes.SHOW_ERRORS:
-				return <Error config={ config } />;
+			case ActionTypes.TAB_ID_NOT_FOUND:
+			case ActionTypes.CHROME_API_EXCEPTION:
+			case ActionTypes.UNKNOWN_ERROR:
+				return <Error config={ config } type={ type } />;
 
+			case ActionTypes.TAB_ITEMS_NOT_FOUND:
 			case ActionTypes.SEARCH_TABS:
 				if (!tabs.actual.length) {
 					return <Text> { chrome.i18n.getMessage('nothing_found') } </Text>;

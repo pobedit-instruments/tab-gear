@@ -12,8 +12,14 @@ export default {
 	 * @param {string} action.type
 	 * @param {Function} dispatch
 	 */
-	showTabs ({ type }, dispatch) {
+	showTabs (action, dispatch) {
 		chrome.tabs.query({}, tabs => {
+			let { type } = action;
+
+			if (!tabs.length) {
+				return dispatch({ type: ActionTypes.TAB_ITEMS_NOT_FOUND });
+			}
+
 			dispatch({ type, tabs });
 		});
 	},
@@ -55,7 +61,7 @@ export default {
 			id = Number.parseInt(id);
 
 			chrome.tabs.remove(id, window => {
-				this.showTabs({ type: ActionTypes.SHOW_TABS }, dispatch);
+				this.showTabs(...arguments);
 			});
 		}
 		else {
@@ -144,7 +150,7 @@ export default {
 
 		// We should care about actual indices due (tabs is not relevant)
 		chrome.tabs.move(ids, { index }, tabs => {
-			this.showTabs({ type: ActionTypes.SHOW_TABS }, dispatch);
+			this.showTabs(...arguments);
 		});
 	},
 

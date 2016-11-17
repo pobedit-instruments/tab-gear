@@ -22,6 +22,7 @@ class Error extends Component {
 }
 
 Error.propTypes = {
+	type: PropTypes.string,
 	config: PropTypes.object.isRequired
 };
 

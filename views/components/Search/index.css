@@ -2,6 +2,14 @@
 
 .tg-search {
 	position: relative;
+	box-shadow: 0 1px 0 var(--search-bottom-color);
+
+	z-index: 2;
+
+	&.is-focus {
+		transition: box-shadow .5s cubic-bezier(.4, 0, 1, 1);
+		box-shadow: none;
+	}
 
 	&.is-active {
 		.tg-search__input {
@@ -12,6 +20,10 @@
 			opacity: 1;
 			z-index: 2;
 		}
+
+		box-shadow: 0 1px 0 var(--tab-item-border-color);
+		transition: box-shadow .1s ease-in-out;
+		z-index: 3;
 	}
 }
 

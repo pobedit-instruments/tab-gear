@@ -5,7 +5,7 @@ import ReactSortable from 'react-sortablejs';
 
 import './index.css';
 
-class Tabs extends Component {
+class List extends Component {
 	constructor (properties) {
 		super(...arguments);
 
@@ -116,11 +116,11 @@ class Tabs extends Component {
 	}
 }
 
-Tabs.propTypes = {
+List.propTypes = {
 	items  : PropTypes.array.isRequired,
 	tabs   : PropTypes.object.isRequired,
 	state  : PropTypes.string,
 	actions: PropTypes.object.isRequired
 };
 
-export default Tabs;
+export default List;

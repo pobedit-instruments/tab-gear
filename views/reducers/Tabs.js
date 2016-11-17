@@ -17,6 +17,7 @@ export default {
 				return state;
 
 			case ActionTypes.SHOW_TABS:
+			case ActionTypes.CLOSE_TAB:
 			case ActionTypes.MOVE_TABS:
 			case ActionTypes.DISABLE_TABS:
 				return tabs;
@@ -84,7 +85,7 @@ export default {
 	 * @returns {*}
 	 */
 	switchTab (state = '', action) {
-		let { type, index, error } = action;
+		let { type, index, error = '' } = action;
 
 		switch (type) {
 			case ActionTypes.SWITCH_TAB:
@@ -126,7 +127,7 @@ export default {
 	 * @returns {*}
 	 */
 	discardTabs (state = [], action) {
-		let { type, tabs, error } = action;
+		let { type, tabs, error = '' } = action;
 
 		switch (type) {
 			case ActionTypes.TAB_ITEMS_NOT_FOUND:
@@ -149,7 +150,7 @@ export default {
 	 * @returns {*}
 	 */
 	closeTab (state = '', action) {
-		let { type, id, error } = action;
+		let { type, id, error = '' } = action;
 
 		switch (type) {
 			case ActionTypes.TAB_ID_NOT_FOUND:
@@ -173,7 +174,7 @@ export default {
 	 * @returns {*}
 	 */
 	closeAllTabs (state = [], action) {
-		let { type, tabs, error } = action;
+		let { type, tabs, error = '' } = action;
 
 		switch (type) {
 			case ActionTypes.TAB_ITEMS_NOT_FOUND:

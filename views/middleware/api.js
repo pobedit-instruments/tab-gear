@@ -81,13 +81,12 @@ export default {
 		if (tabs) {
 			tabs = tabs.map(({ id }) => id);
 
+			chrome.tabs.create({ url: 'chrome://newtab' }, tab => {
+				dispatch({ type: ActionTypes.CLOSE_TAB });
+			});
+
 			chrome.tabs.remove(tabs, window => {
-				chrome.tabs.create({
-					url: 'chrome://newtab'
-				},
-				tab => {
-					dispatch(action);
-				});
+				dispatch(action);
 			});
 		}
 		else {

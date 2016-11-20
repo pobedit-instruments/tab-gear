@@ -66,11 +66,11 @@ npm test
 
 ### Contributors
 
-1. Bump a version of the package
+1. Bump a version of the package:
 	* manifest.json
 	* package.json
 
-2. Add the release notes
+2. Add the release notes:
 	* CHANGELOG.md
 
 

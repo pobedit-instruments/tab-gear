@@ -64,6 +64,16 @@ npm test
 * Actualize "update.xml"
 
 
+### Contributors
+
+1. Bump a version of the package
+	* manifest.json
+	* package.json
+
+2. Add the release notes
+	* CHANGELOG.md
+
+
 ### Todo
 
 - [ ] Bookmarks

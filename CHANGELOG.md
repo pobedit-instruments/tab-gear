@@ -1,5 +1,9 @@
 # Tab Gear
 
+# 1.0.4
+
+* Fixed title
+
 # 1.0.3
 
 * Fixed options

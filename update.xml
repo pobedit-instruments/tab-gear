@@ -10,5 +10,7 @@
 		<updatecheck codebase="https://github.com/pobedit-instruments/tab-gear/blob/master/build/1.0.2.crx?raw=true" version="1.0.2" prodversionmin="54.0.2840.71" />
 
 		<updatecheck codebase="https://github.com/pobedit-instruments/tab-gear/blob/master/build/1.0.3.crx?raw=true" version="1.0.3" prodversionmin="54.0.2840.71" />
+
+		<updatecheck codebase="https://github.com/pobedit-instruments/tab-gear/blob/master/build/1.0.4.crx?raw=true" version="1.0.4" prodversionmin="54.0.2840.71" />
 	</app>
 </gupdate>

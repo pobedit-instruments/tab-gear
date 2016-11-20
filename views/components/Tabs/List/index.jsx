@@ -91,6 +91,7 @@ class List extends Component {
 						<a { ...this.class('item-link') } href="#"
 						   data-index={ index }
 						   data-name="tab"
+						   title={ url }
 						   onClick={ this.switchTab }>
 
 							<img { ...this.class('item-icon') } src={ favIconUrl } />

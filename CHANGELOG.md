@@ -1,5 +1,9 @@
 # Tab Gear
 
+# 1.0.5
+
+* Fixed a typo
+
 # 1.0.4
 
 * Fixed title
